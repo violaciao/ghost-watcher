@@ -1,0 +1,54 @@
+# Claude Code instructions
+CLAUDE.md
+
+# Raw dataset — never commit
+data/rba_dataset.csv
+data/*.csv
+data/*.parquet
+data/*.json
+
+# Allow the generator script output to be committed selectively
+# (by default, exclude simulated data too)
+data/simulated_users.csv
+
+# Large files
+*.h5
+*.pkl
+*.joblib
+*.model
+
+# Files over 50MB
+# (add specific large files here)
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.env
+.venv
+env/
+venv/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# DS Store
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ruff / black
+.ruff_cache/
