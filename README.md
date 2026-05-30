@@ -72,7 +72,12 @@ ghost-watcher/
 ## Running the Code
 
 **Prerequisites:**
+Use Python `>=3.10,<3.14`. Python 3.14 is not supported yet because `shap` depends on `numba`, which currently rejects Python 3.14 during installation.
+
 ```bash
+python3.13 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
