@@ -1,5 +1,7 @@
 # ghost-watcher
 
+![ghost-watcher banner](data/banner.jpg)
+
 > The hardest part of detecting subscription abuse isn't the model — it's defining what abuse is.
 
 ---
