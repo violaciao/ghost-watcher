@@ -72,8 +72,6 @@ ghost-watcher/
 ## Running the Code
 
 **Prerequisites:**
-Use Python `>=3.10,<3.14`. Python 3.14 is not supported yet because `shap` depends on `numba`, which currently rejects Python 3.14 during installation.
-
 ```bash
 python3.13 -m venv .venv
 source .venv/bin/activate
@@ -87,6 +85,10 @@ python 04_data/simulate_abuse_accounts.py
 ```
 
 This creates `data/simulated_users.csv`. Then run the notebooks in order: `rule_based.ipynb` → `ml_based.ipynb` → `revenue_leakage_model.ipynb`.
+
+```bash
+jupyter lab
+```
 
 ---
 
