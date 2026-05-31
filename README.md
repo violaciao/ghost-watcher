@@ -69,6 +69,14 @@ ghost-watcher/
 
 ---
 
+## Preview
+
+**Feature importance (SHAP) — behavioral fingerprinting model:**
+
+![Feature importance SHAP plot](data/ft_imp.png)
+
+---
+
 ## Running the Code
 
 **Prerequisites:**
